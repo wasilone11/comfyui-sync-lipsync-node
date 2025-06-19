@@ -1,2 +1,3 @@
-sync
-requests
+requests==2.32.3
+syncsdk==0.1.9
+protobuf<6.0.0,>=3.20.3
