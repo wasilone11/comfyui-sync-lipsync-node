@@ -1,7 +1,33 @@
-After cloning ComfyUI and setting up a virtual environment for it, do the following:
-(1) cd /path/to/ComfyUI/custom_nodes/
-(2) git clone https://github.com/wasilone11/comfyui-sync-lipsync-node.git
-(3) pip install -r requirements.txt
-(4) Go back to the /path/to/ComfyUI/ and run python main.py
-(5) You will get a link to go to the comfyUI GUI
-(6) Once in ComfyUI, on the left size bar, go to nodes and search Sync. Open the node, put the values, and run!
+# ComfyUI Sync Lipsync Node
+
+This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface.
+
+## Installation & Usage
+
+After cloning [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and setting up a virtual environment for it, follow these steps:
+
+1. Navigate to the custom nodes directory:  
+   `cd /path/to/ComfyUI/custom_nodes/`
+
+2. Clone this repository:  
+   `git clone https://github.com/wasilone11/comfyui-sync-lipsync-node.git`
+
+3. Install the required dependencies:  
+   `pip install -r comfyui-sync-lipsync-node/requirements.txt`
+
+4. Go back to the main ComfyUI directory and run:  
+   `cd /path/to/ComfyUI/`  
+   `python main.py`
+
+5. A link will be printed in the terminal — open it in your browser to access the ComfyUI GUI.
+
+6. In the ComfyUI interface:  
+   - On the left sidebar, go to the **Nodes** tab.  
+   - Search for **Sync**.  
+   - Open the **Sync** node, input your video, audio, and API key.  
+   - Click **Run** to generate the synced output!
+
+---
+
+For issues or contributions, feel free to open a pull request or create an issue in this repository.
+
