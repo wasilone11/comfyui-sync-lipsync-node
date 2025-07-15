@@ -23,8 +23,8 @@ After cloning [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and setting u
 
 6. In the ComfyUI interface:  
    - On the left sidebar, go to the **Nodes** tab.  
-   - Search for **Sync**.  
-   - Open the **Sync** node, input your video, audio, and API key.  
+   - Search for **Sync**. You will find three sync nodes; one for input, one for generation and one for output. Connect them to each other.
+   - Input your video, audio, and API key. For audio and video, you can give a url or a local path as an input. The local files should be somewhere in the ComfyUI repository that you are using.  
    - Click **Run** to generate the synced output!
 
 ---
